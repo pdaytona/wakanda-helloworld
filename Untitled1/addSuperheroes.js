@@ -1,0 +1,1 @@
+ds.SuperHero.remove(); //clean the database from all former Superhero generatednew ds.SuperHero({Name:"Batman"}).save();new ds.SuperHero({Name:"Wolverine"}).save();var favoriteSupeHero = new ds.SuperHero({Name:"Wonder Woman"});favoriteSupeHero.save();ds.SuperHero.all();

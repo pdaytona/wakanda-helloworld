@@ -1,0 +1,116 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"SuperHero": {
+				"panelColor": "#fff",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				},
+				"methVisible": "false",
+				"methodInhVisible": "false"
+			},
+			"Movie": {
+				"panelColor": "#C4BD97",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 422,
+						"Y": 7
+					}
+				},
+				"methVisible": "false",
+				"methodInhVisible": "false"
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"methodShowMode": "false",
+			"methodInhShowMode": "false"
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Movie",
+			"className": "Movie",
+			"collectionName": "MovieCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Title",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "superHeroCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "SuperHeroCollection",
+					"reversePath": true,
+					"path": "movie"
+				}
+			]
+		},
+		{
+			"name": "SuperHero",
+			"className": "SuperHero",
+			"collectionName": "SuperHeroCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Title",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "movie",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Movie",
+					"path": "Movie"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+2017-04-27 18:33:20 [wakanda.supervisor] INFO - solution closed
+2017-04-27 18:33:20 [wakanda] INFO - Opens the solution "Macintosh HD:Users:pauger:Documents:Wakanda:solutions:angulaTest2:app.waSolution" for running
+2017-04-27 18:33:21 [wakanda.angulaTest2] INFO - Users and groups directory opened
+2017-04-27 18:33:21 [IndexManager] INFO - Index  on Movie.ID built in 0 ms
+2017-04-27 18:33:21 [IndexManager] INFO - Index  on SuperHero.ID built in 2 ms
+2017-04-27 18:33:21 [IndexManager] INFO - Index  on SuperHero.movie built in 0 ms
+2017-04-27 18:33:21 [wakanda.angulaTest2.Untitled1] INFO - Datastore opened
+2017-04-27 18:33:21 [wakanda.angulaTest2.Untitled1] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2017-04-27 18:33:21 [wakanda.angulaTest2.Untitled1] INFO - "Untitled1" project opened
+2017-04-27 18:33:21 [wakanda.angulaTest2.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2017-04-27 18:33:21 [wakanda.angulaTest2.ServerAdmin] INFO - "ServerAdmin" project opened
+2017-04-27 18:33:21 [wakanda.angulaTest2] INFO - "angulaTest2" solution opened
+2017-04-27 18:33:21 [wakanda] INFO - Starts "angulaTest2" solution
+2017-04-27 18:33:21 [wakanda.angulaTest2.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2017-04-27 18:33:21 [wakanda.angulaTest2.ServerAdmin] INFO - HTTP Server started
+2017-04-27 18:33:21 [wakanda.angulaTest2.ServerAdmin] INFO - "ServerAdmin" project started
+2017-04-27 18:33:21 [wakanda.angulaTest2.Untitled1] INFO - HTTP Server started
+2017-04-27 18:33:21 [wakanda.angulaTest2.Untitled1] INFO - "Untitled1" project started
+2017-04-27 18:33:21 [wakanda.angulaTest2.ServerAdmin] INFO - Executes the bootstrap file(s)
+2017-04-27 18:33:22 [wakanda.angulaTest2.ServerAdmin] INFO - Bootstrap file(s) executed
+2017-04-27 18:33:22 [wakanda.angulaTest2.Untitled1] INFO - Executes the bootstrap file(s)
+2017-04-27 18:33:22 [wakanda.angulaTest2.Untitled1] INFO - Bootstrap file(s) executed
+2017-04-27 18:33:22 [wakanda.angulaTest2] INFO - "angulaTest2" solution started
+2017-04-27 18:33:22 [wakanda] INFO - "angulaTest2" solution has been successfully opened for running (duration: 1136 ms)
+2017-04-27 18:33:22 [wakanda.supervisor] INFO - solution opened
+2017-04-27 18:33:22 [wakanda.angulaTest2.Untitled1.jvsc] ERROR - [4055] Cannot read property 'remove' of undefined, line #1, file:///Users/pauger/Documents/Wakanda/solutions/angulaTest2/Untitled1/addSuperheroes.js., task #29451, task name is HTTP connection handler
+2017-04-27 18:33:22 [wakanda.angulaTest2.Untitled1.JS4D] ERROR - [2] Error evaluating javascript file:///Users/pauger/Documents/Wakanda/solutions/angulaTest2/Untitled1/addSuperheroes.js, task #29451, task name is HTTP connection handler
+2017-04-27 18:34:20 [IndexManager] INFO - Index  on SuperHero.ID built in 0 ms
+2017-04-27 18:34:20 [IndexManager] INFO - Index  on SuperHero.movie built in 0 ms
+2017-04-28 18:05:54 [IndexManager] INFO - Index  on SuperHero.ID built in 8 ms
+2017-04-28 18:05:54 [IndexManager] INFO - Index  on SuperHero.movie built in 0 ms
+2017-05-02 17:05:06 [IndexManager] INFO - Index  on SuperHero.ID built in 12 ms
+2017-05-02 17:05:06 [IndexManager] INFO - Index  on SuperHero.movie built in 3 ms
+2017-05-02 17:05:12 [IndexManager] INFO - Index  on SuperHero.ID built in 0 ms
+2017-05-02 17:05:12 [IndexManager] INFO - Index  on SuperHero.movie built in 0 ms
+2017-05-02 17:31:35 [IndexManager] INFO - Index  on SuperHero.ID built in 0 ms
+2017-05-02 17:31:35 [IndexManager] INFO - Index  on SuperHero.movie built in 0 ms
+2017-05-02 17:33:12 [IndexManager] INFO - Index  on SuperHero.ID built in 0 ms
+2017-05-02 17:33:12 [IndexManager] INFO - Index  on SuperHero.movie built in 0 ms
